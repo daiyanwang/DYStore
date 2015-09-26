@@ -21,6 +21,7 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - IMQuickSearch (1.2.0)
+  - IQKeyboardManager (3.3.2)
   - Masonry (0.6.3)
   - MJExtension (2.5.12)
   - SDWebImage (3.7.3):
@@ -33,6 +34,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.5.4)
   - IMQuickSearch (~> 1.2.0)
+  - IQKeyboardManager (~> 3.3.1)
   - Masonry (~> 0.6.2)
   - MJExtension (~> 2.5.5)
   - SDWebImage (~> 3.7.3)
@@ -41,6 +43,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   IMQuickSearch: 351fda5dcf33428bf04c28213b984d66015b691d
+  IQKeyboardManager: d863eb0bca424d1f6dad6bdd1f856af52664add8
   Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
   MJExtension: 5ab633484e431f777387c70b676c80f993361f1b
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84

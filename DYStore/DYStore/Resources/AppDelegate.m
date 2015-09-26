@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeController.h"
+
+#import "PointsMallController.h"
 
 @interface AppDelegate ()
 
@@ -17,8 +20,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    PointsMallController *home = [[PointsMallController alloc] init];
+    self.window.rootViewController = home;
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

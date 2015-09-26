@@ -1,0 +1,66 @@
+//
+//  DYStore.pch
+//  DYStore
+//
+//  Created by MyMac on 15/9/25.
+//  Copyright © 2015年 MyMac. All rights reserved.
+//
+
+#ifndef DYStore_pch
+#define DYStore_pch
+
+#import <UIKit/UIKit.h>
+
+#import "UIFont+Extension.h"  //UIFont扩展
+#import <AFNetworking/AFNetworking.h>  //网络请求
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import "UITextField+Extension.h" //UITextField扩展
+#import "NSString+Extension.h" 
+#import <MJExtension.h> //JSON数据解析
+
+#import <IQKeyboardManager.h>
+#import "IQKeyboardReturnKeyHandler.h" //处理键盘事件
+
+#import "Masonry.h"  //布局文件
+
+
+
+
+// 通知中心
+#define DYNotificationCenter [NSNotificationCenter defaultCenter]
+
+#ifdef DEBUG // 处于开发阶段
+#define DBLog(...) NSLog(__VA_ARGS__)
+#else // 处于发布阶段
+#define DBLog(...)
+#endif
+
+#define isNilOfValue(a) [(a) isEqualToString:@""]||[(a) isEqual:[NSNull null]]
+
+#define CommonTag 1000
+
+#define CODE_SUCCESS @"200"
+
+//RGB颜色
+#define RGB(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define RGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+// 随机色
+#define RandomRGB RGB(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+//屏幕宽度和高度、导航栏高度
+#define mainScreenW [UIScreen mainScreen].bounds.size.width
+#define mainScreenH [UIScreen mainScreen].bounds.size.height
+#define NavigationHeight 64
+//#define tabBarHeight 44
+
+//一像素线宽度
+#define SINGLE_LINE_WIDTH           (1 / [UIScreen mainScreen].scale)
+#define SINGLE_LINE_ADJUST_OFFSET   ((1 / [UIScreen mainScreen].scale) / 2)
+
+
+
+
+#endif /* DYStore_pch */
