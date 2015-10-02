@@ -19,10 +19,21 @@
 		1F1FF4211BB4E58300B2A900 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FF41A1BB4E58300B2A900 /* UIView+LayoutMethods.m */; settings = {ASSET_TAGS = (); }; };
 		1F1FF4291BB521B800B2A900 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FF4281BB521B800B2A900 /* NSString+Extension.m */; settings = {ASSET_TAGS = (); }; };
 		1F1FF42C1BB522C000B2A900 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FF42B1BB522C000B2A900 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		1F1FF4351BB5257500B2A900 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F1FF4341BB5257500B2A900 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 		1F1FF43D1BB5332100B2A900 /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FF43C1BB5332100B2A900 /* CMViewController.m */; settings = {ASSET_TAGS = (); }; };
 		1F1FF4401BB5335900B2A900 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FF43F1BB5335900B2A900 /* HomeController.m */; settings = {ASSET_TAGS = (); }; };
 		1F1FF4431BB5337500B2A900 /* PointsMallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FF4421BB5337500B2A900 /* PointsMallController.m */; settings = {ASSET_TAGS = (); }; };
+		1F7981D21BBBD47900A32AC8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F7981D11BBBD47900A32AC8 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		1F7981D51BBBD84200A32AC8 /* PointMallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7981D41BBBD84200A32AC8 /* PointMallCell.m */; settings = {ASSET_TAGS = (); }; };
+		1F7981D91BBBDD1000A32AC8 /* WaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7981D81BBBDD1000A32AC8 /* WaterflowLayout.m */; settings = {ASSET_TAGS = (); }; };
+		1FD03D071BB8D7DB00B12618 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD03CFB1BB8D7DB00B12618 /* CollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		1FD03D081BB8D7DB00B12618 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD03CFD1BB8D7DB00B12618 /* CycleScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		1FD03D091BB8D7DB00B12618 /* AbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD03D001BB8D7DB00B12618 /* AbstractDotView.m */; settings = {ASSET_TAGS = (); }; };
+		1FD03D0A1BB8D7DB00B12618 /* AnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD03D021BB8D7DB00B12618 /* AnimatedDotView.m */; settings = {ASSET_TAGS = (); }; };
+		1FD03D0B1BB8D7DB00B12618 /* DotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD03D041BB8D7DB00B12618 /* DotView.m */; settings = {ASSET_TAGS = (); }; };
+		1FD03D0C1BB8D7DB00B12618 /* PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD03D061BB8D7DB00B12618 /* PageControl.m */; settings = {ASSET_TAGS = (); }; };
+		1FD03D131BB8F85C00B12618 /* PointNum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD03D121BB8F85C00B12618 /* PointNum.m */; settings = {ASSET_TAGS = (); }; };
+		1FD03D161BB9351D00B12618 /* RecommendationPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD03D151BB9351D00B12618 /* RecommendationPart.m */; settings = {ASSET_TAGS = (); }; };
+		1FE65D491BBA296700D9CB40 /* PointsArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE65D481BBA296700D9CB40 /* PointsArea.m */; settings = {ASSET_TAGS = (); }; };
 		94519569526D02771DD1B450 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E5D67B2488893DC1A99920 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -70,13 +81,36 @@
 		1F1FF4281BB521B800B2A900 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		1F1FF42A1BB522C000B2A900 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F1FF42B1BB522C000B2A900 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F1FF4341BB5257500B2A900 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F1FF43B1BB5332100B2A900 /* CMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMViewController.h; sourceTree = "<group>"; };
 		1F1FF43C1BB5332100B2A900 /* CMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
 		1F1FF43E1BB5335900B2A900 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
 		1F1FF43F1BB5335900B2A900 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		1F1FF4411BB5337500B2A900 /* PointsMallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointsMallController.h; sourceTree = "<group>"; };
 		1F1FF4421BB5337500B2A900 /* PointsMallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointsMallController.m; sourceTree = "<group>"; };
+		1F7981D11BBBD47900A32AC8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7981D31BBBD84200A32AC8 /* PointMallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointMallCell.h; sourceTree = "<group>"; };
+		1F7981D41BBBD84200A32AC8 /* PointMallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointMallCell.m; sourceTree = "<group>"; };
+		1F7981D71BBBDD1000A32AC8 /* WaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterflowLayout.h; sourceTree = "<group>"; };
+		1F7981D81BBBDD1000A32AC8 /* WaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterflowLayout.m; sourceTree = "<group>"; };
+		1F83E0F01BBE76A000ADAD0C /* Tag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		1FD03CFA1BB8D7DB00B12618 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		1FD03CFB1BB8D7DB00B12618 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		1FD03CFC1BB8D7DB00B12618 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
+		1FD03CFD1BB8D7DB00B12618 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		1FD03CFF1BB8D7DB00B12618 /* AbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDotView.h; sourceTree = "<group>"; };
+		1FD03D001BB8D7DB00B12618 /* AbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractDotView.m; sourceTree = "<group>"; };
+		1FD03D011BB8D7DB00B12618 /* AnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedDotView.h; sourceTree = "<group>"; };
+		1FD03D021BB8D7DB00B12618 /* AnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedDotView.m; sourceTree = "<group>"; };
+		1FD03D031BB8D7DB00B12618 /* DotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotView.h; sourceTree = "<group>"; };
+		1FD03D041BB8D7DB00B12618 /* DotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotView.m; sourceTree = "<group>"; };
+		1FD03D051BB8D7DB00B12618 /* PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControl.h; sourceTree = "<group>"; };
+		1FD03D061BB8D7DB00B12618 /* PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControl.m; sourceTree = "<group>"; };
+		1FD03D111BB8F85C00B12618 /* PointNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointNum.h; sourceTree = "<group>"; };
+		1FD03D121BB8F85C00B12618 /* PointNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointNum.m; sourceTree = "<group>"; };
+		1FD03D141BB9351D00B12618 /* RecommendationPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendationPart.h; sourceTree = "<group>"; };
+		1FD03D151BB9351D00B12618 /* RecommendationPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendationPart.m; sourceTree = "<group>"; };
+		1FE65D471BBA296700D9CB40 /* PointsArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointsArea.h; sourceTree = "<group>"; };
+		1FE65D481BBA296700D9CB40 /* PointsArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointsArea.m; sourceTree = "<group>"; };
 		31E5D67B2488893DC1A99920 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3729EAF4874F4BE8267278 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B0AE3EC73899F3B98E1081B0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,7 +170,7 @@
 				1F1FF40C1BB4E57800B2A900 /* Category(分类) */,
 				1F1FF40A1BB4E4F600B2A900 /* Classes */,
 				1F1FF4221BB4E60400B2A900 /* Others */,
-				1F1FF4231BB4E6A300B2A900 /* CustomControl */,
+				1F1FF4231BB4E6A300B2A900 /* CustomControl(自定义组件) */,
 				1F1FF4241BB51DCD00B2A900 /* Resources */,
 				1F1FC1061BB3E76100CAE4DE /* Assets.xcassets */,
 				1F1FC0FA1BB3E76100CAE4DE /* Supporting Files */,
@@ -219,10 +253,13 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
-		1F1FF4231BB4E6A300B2A900 /* CustomControl */ = {
+		1F1FF4231BB4E6A300B2A900 /* CustomControl(自定义组件) */ = {
 			isa = PBXGroup;
 			children = (
+				1F7981D61BBBDD1000A32AC8 /* WaterfallsFlow */,
+				1FD03CF91BB8D7DB00B12618 /* CycleScrollView(轮播图) */,
 			);
+			name = "CustomControl(自定义组件)";
 			path = CustomControl;
 			sourceTree = "<group>";
 		};
@@ -231,6 +268,7 @@
 			children = (
 				1F1FF42A1BB522C000B2A900 /* AppDelegate.h */,
 				1F1FF42B1BB522C000B2A900 /* AppDelegate.m */,
+				1F83E0EF1BBE768B00ADAD0C /* Tag */,
 				1F1FF4251BB51E0A00B2A900 /* PCH */,
 				1F1FF42D1BB5239C00B2A900 /* Plist */,
 			);
@@ -248,7 +286,7 @@
 		1F1FF42D1BB5239C00B2A900 /* Plist */ = {
 			isa = PBXGroup;
 			children = (
-				1F1FF4341BB5257500B2A900 /* Info.plist */,
+				1F7981D11BBBD47900A32AC8 /* Info.plist */,
 			);
 			path = Plist;
 			sourceTree = "<group>";
@@ -300,8 +338,69 @@
 		1F1FF4441BB535D800B2A900 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1FD03D101BB8F84300B12618 /* PointMall */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		1F7981D61BBBDD1000A32AC8 /* WaterfallsFlow */ = {
+			isa = PBXGroup;
+			children = (
+				1F7981D71BBBDD1000A32AC8 /* WaterflowLayout.h */,
+				1F7981D81BBBDD1000A32AC8 /* WaterflowLayout.m */,
+			);
+			path = WaterfallsFlow;
+			sourceTree = "<group>";
+		};
+		1F83E0EF1BBE768B00ADAD0C /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				1F83E0F01BBE76A000ADAD0C /* Tag.h */,
+			);
+			path = Tag;
+			sourceTree = "<group>";
+		};
+		1FD03CF91BB8D7DB00B12618 /* CycleScrollView(轮播图) */ = {
+			isa = PBXGroup;
+			children = (
+				1FD03CFA1BB8D7DB00B12618 /* CollectionViewCell.h */,
+				1FD03CFB1BB8D7DB00B12618 /* CollectionViewCell.m */,
+				1FD03CFC1BB8D7DB00B12618 /* CycleScrollView.h */,
+				1FD03CFD1BB8D7DB00B12618 /* CycleScrollView.m */,
+				1FD03CFE1BB8D7DB00B12618 /* PageControl */,
+			);
+			name = "CycleScrollView(轮播图)";
+			path = CycleScrollView;
+			sourceTree = "<group>";
+		};
+		1FD03CFE1BB8D7DB00B12618 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				1FD03CFF1BB8D7DB00B12618 /* AbstractDotView.h */,
+				1FD03D001BB8D7DB00B12618 /* AbstractDotView.m */,
+				1FD03D011BB8D7DB00B12618 /* AnimatedDotView.h */,
+				1FD03D021BB8D7DB00B12618 /* AnimatedDotView.m */,
+				1FD03D031BB8D7DB00B12618 /* DotView.h */,
+				1FD03D041BB8D7DB00B12618 /* DotView.m */,
+				1FD03D051BB8D7DB00B12618 /* PageControl.h */,
+				1FD03D061BB8D7DB00B12618 /* PageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		1FD03D101BB8F84300B12618 /* PointMall */ = {
+			isa = PBXGroup;
+			children = (
+				1FD03D111BB8F85C00B12618 /* PointNum.h */,
+				1FD03D121BB8F85C00B12618 /* PointNum.m */,
+				1FD03D141BB9351D00B12618 /* RecommendationPart.h */,
+				1FD03D151BB9351D00B12618 /* RecommendationPart.m */,
+				1FE65D471BBA296700D9CB40 /* PointsArea.h */,
+				1FE65D481BBA296700D9CB40 /* PointsArea.m */,
+				1F7981D31BBBD84200A32AC8 /* PointMallCell.h */,
+				1F7981D41BBBD84200A32AC8 /* PointMallCell.m */,
+			);
+			path = PointMall;
 			sourceTree = "<group>";
 		};
 		37C696B9AB5D2D6735D6DC7D /* Frameworks */ = {
@@ -390,7 +489,7 @@
 				TargetAttributes = {
 					1F1FC0F61BB3E76100CAE4DE = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 2XSK9V382X;
+						DevelopmentTeam = SK8LZNXD8J;
 					};
 					1F1FC10F1BB3E76100CAE4DE = {
 						CreatedOnToolsVersion = 7.0;
@@ -427,8 +526,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7981D21BBBD47900A32AC8 /* Info.plist in Resources */,
 				1F1FC1071BB3E76100CAE4DE /* Assets.xcassets in Resources */,
-				1F1FF4351BB5257500B2A900 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,18 +585,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD03D0C1BB8D7DB00B12618 /* PageControl.m in Sources */,
 				1F1FF41D1BB4E58300B2A900 /* UIBarButtonItem+Extension.m in Sources */,
+				1FD03D0A1BB8D7DB00B12618 /* AnimatedDotView.m in Sources */,
 				1F1FF4211BB4E58300B2A900 /* UIView+LayoutMethods.m in Sources */,
+				1FD03D0B1BB8D7DB00B12618 /* DotView.m in Sources */,
 				1F1FF4431BB5337500B2A900 /* PointsMallController.m in Sources */,
 				1F1FF41F1BB4E58300B2A900 /* UITextField+Extension.m in Sources */,
 				1F1FF4401BB5335900B2A900 /* HomeController.m in Sources */,
+				1FD03D131BB8F85C00B12618 /* PointNum.m in Sources */,
 				1F1FF42C1BB522C000B2A900 /* AppDelegate.m in Sources */,
+				1F7981D91BBBDD1000A32AC8 /* WaterflowLayout.m in Sources */,
 				1F1FF4291BB521B800B2A900 /* NSString+Extension.m in Sources */,
 				1F1FF41B1BB4E58300B2A900 /* NSDictionary+Value.m in Sources */,
+				1F7981D51BBBD84200A32AC8 /* PointMallCell.m in Sources */,
+				1FD03D081BB8D7DB00B12618 /* CycleScrollView.m in Sources */,
 				1F1FF41E1BB4E58300B2A900 /* UIFont+Extension.m in Sources */,
 				1F1FF4201BB4E58300B2A900 /* UIView+AEBHandyAutoLayout.m in Sources */,
 				1F1FC0FC1BB3E76100CAE4DE /* main.m in Sources */,
+				1FD03D071BB8D7DB00B12618 /* CollectionViewCell.m in Sources */,
+				1FD03D091BB8D7DB00B12618 /* AbstractDotView.m in Sources */,
 				1F1FF43D1BB5332100B2A900 /* CMViewController.m in Sources */,
+				1FD03D161BB9351D00B12618 /* RecommendationPart.m in Sources */,
+				1FE65D491BBA296700D9CB40 /* PointsArea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +660,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: wuhan regeneration muscle biotechnology co.LTD (SK8LZNXD8J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: wuhan regeneration muscle biotechnology co.LTD (SK8LZNXD8J)";
 				COPY_PHASE_STRIP = NO;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -595,7 +706,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: wuhan regeneration muscle biotechnology co.LTD (SK8LZNXD8J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: wuhan regeneration muscle biotechnology co.LTD (SK8LZNXD8J)";
 				COPY_PHASE_STRIP = NO;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -624,6 +736,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DYStore/Resources/PCH/DYStore.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/DYStore/Resources/Plist/Info.plist";
@@ -631,6 +744,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daiyanwang.www.DYStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -641,6 +755,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DYStore/Resources/PCH/DYStore.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/DYStore/Resources/Plist/Info.plist";
@@ -648,6 +763,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daiyanwang.www.DYStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

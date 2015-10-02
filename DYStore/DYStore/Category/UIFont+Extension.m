@@ -11,7 +11,8 @@
 @implementation UIFont (Extension)
 
 + (UIFont *)fontWithSize:(float)size{
-    return [UIFont fontWithName:@"Avenir-Light" size:size];
+//    pt=(px/96)*72
+    return [UIFont fontWithName:@"HiraginoSans-W3" size:size];
 }
 
 @end

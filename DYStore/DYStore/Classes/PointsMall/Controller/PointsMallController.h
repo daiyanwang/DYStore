@@ -8,6 +8,6 @@
 
 #import "CMViewController.h"
 
-@interface PointsMallController : UINavigationController
+@interface PointsMallController : UIViewController
 
 @end

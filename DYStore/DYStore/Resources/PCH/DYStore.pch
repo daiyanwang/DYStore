@@ -11,6 +11,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "Tag.h" //所有tag值
+
 #import "UIFont+Extension.h"  //UIFont扩展
 #import <AFNetworking/AFNetworking.h>  //网络请求
 #import <UIImageView+WebCache.h>
@@ -23,6 +25,10 @@
 #import "IQKeyboardReturnKeyHandler.h" //处理键盘事件
 
 #import "Masonry.h"  //布局文件
+#import "UIView+LayoutMethods.h"
+
+
+#import "CycleScrollView.h"//轮播图
 
 
 

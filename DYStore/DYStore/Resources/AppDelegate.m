@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "HomeController.h"
 
-#import "PointsMallController.h"
+#import "PointsMallController.h"    //积分商城
 
 @interface AppDelegate ()
 
@@ -21,9 +21,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] init];
+    self.window.backgroundColor = [UIColor whiteColor];
     self.window.frame = [UIScreen mainScreen].bounds;
     PointsMallController *home = [[PointsMallController alloc] init];
-    self.window.rootViewController = home;
+    UINavigationController *nav  = [[UINavigationController alloc] initWithRootViewController:home];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
     return YES;
